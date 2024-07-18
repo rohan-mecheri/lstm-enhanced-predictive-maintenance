@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project develops a predictive maintenance framework using sensor data and Long Short-Term Memory (LSTM) neural networks. The goal is to estimate the Remaining Useful Life (RUL) of industrial equipment, thereby preventing unexpected failures and optimizing maintenance schedules.
+This project creates a predictive maintenance framework using sensor data and Long Short-Term Memory (LSTM) neural networks to estimate the Remaining Useful Life (RUL) of industrial equipment, thereby preventing unexpected failures and optimizing maintenance schedules.
 
 Predictive maintenance uses data analysis and machine learning to predict equipment failures before they occur. By leveraging sensor data and advanced deep learning models, we can provide actionable insights to enhance the reliability and efficiency of industrial operations.
 
