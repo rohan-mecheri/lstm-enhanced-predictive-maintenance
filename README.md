@@ -43,7 +43,7 @@ The model is trained on the training dataset and evaluated using Mean Squared Er
 The model’s performance is visualized through:
 
 - **Training and Validation Loss Curves**: To assess overfitting and convergence.
-- **Scatter Plot of Actual vs. Predicted RUL**: To evaluate prediction accuracy.
+- **Plot of Actual vs. Predicted RUL**: To evaluate prediction accuracy.
 
 ## Conclusion
 
