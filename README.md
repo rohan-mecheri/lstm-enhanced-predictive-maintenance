@@ -38,6 +38,10 @@ The LSTM model captures the sequential nature of the sensor data. The architectu
 
 The model is trained on the training dataset and evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE). Visualization techniques such as loss curves and scatter plots of actual vs. predicted RUL provide insights into model performance.
 
+### Testing
+
+The trained model can be tested through a POST API request using a Flask server. The Flask server hosts an endpoint where you can send data in the form of a JSON array, and the server will return the predicted RUL value. This setup allows for easy integration with other systems or applications that require real-time RUL predictions.
+
 ### Results
 
 The model’s performance is visualized through:
@@ -47,4 +51,4 @@ The model’s performance is visualized through:
 
 ## Conclusion
 
-This project demonstrates the application of LSTM neural networks for predictive maintenance. Accurate RUL predictions can significantly enhance maintenance strategies, reduce downtime, and increase operational efficiency.
+This project demonstrates the application of LSTM neural networks for predictive maintenance. Accurate RUL predictions can significantly enhance maintenance strategies, reduce downtime, and increase operational efficiency. The inclusion of a Flask server and API endpoint facilitates easy testing and integration, making the model readily deployable in real-world scenarios.
